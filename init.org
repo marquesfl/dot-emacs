@@ -161,13 +161,6 @@ Company configuration
       company-transformers '(company-sort-by-occurrence
                              company-sort-by-backend-importance))
 #+end_src
-** Org
-Org Agenda
-#+begin_src emacs-lisp
-(setq org-agenda-files '("~/Documents/Sistema, Templo/Tarefas.org" 
-                         "~/Documents/Sistema, Templo/Agenda.org"
-                         "~/Documents/Escriba.org"))
-#+end_src
 * IDE Config
 ** LSP
 #+begin_src emacs-lisp
